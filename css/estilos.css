@@ -217,6 +217,83 @@
     text-align: end;
 }
 
+
+/* NOSOTROS */
+.nosotrosPrincipal {
+    height: 670px;
+    width: 100%;
+    background-image: url(../img/nosotros.jpg);
+    background-size: cover;
+    background-color: #2525254d;
+    background-blend-mode: soft-light;
+    background-position: center;
+}
+
+.row-nosotros {
+    margin-top: 80px;
+}
+
+.tituloBoldNosotros {
+    padding: 20px 15px;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.tituloLightNosotros {
+    font-weight: 350;
+    color: white;
+}
+
+.descripcionBold {
+    color: white;
+    font-size: 18px;
+    width: 93vw;
+    padding-left: 20px;
+    text-align: justify;
+    font-weight: 600;
+}
+
+.descripcionLight {
+    color: white;
+    font-size: 18px;
+    padding: 20px 20px;
+    font-weight: 200;
+    width: 96vw;
+    text-align: justify;
+}
+
+.btn-contacto {
+    width: 240px;
+    height: 45px;
+    background: #FF8E00;
+    border: none;
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: 2;
+}
+
+.btn-contacto a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.contenedor-redes {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.btn-redes {
+    background: #FF8E00;
+    border: none;
+    height: 50px;
+    border-radius: 5px;
+    margin: 10px;
+    line-height: 2;
+}
+
 /* 768 x 1024 - IPAD */
 @media (min-width: 768px) {
     .productos {
@@ -260,6 +337,21 @@
     .nav-own {
         margin: 0 20px;
     }
+
+    /* NOSOTROS */
+    .row-img-nosotros {
+        justify-content: flex-end;
+
+        margin-top: -230px;
+    }
+
+    .contenedor-redes {
+        margin: 50px 0;
+    }
+
+    .nosotrosPrincipal {
+        height: 570px;
+    }
 }
 
 /* 1920 x 1080 */
@@ -285,6 +377,23 @@
 
     .precio {
         font-size: 28px;
+    }
+
+    /* NOSOTROS */
+    .descripcionBold, .descripcionLight {
+        width: 33vw;
+    }
+
+    .row-nosotros{
+        flex-direction: column;
+    }
+
+    .contenedor-redes {
+        margin: 150px 0;
+    }
+
+    .row-img-nosotros {
+        margin-top: -400px;
     }
 }
 
