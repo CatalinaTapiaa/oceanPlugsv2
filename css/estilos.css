@@ -570,6 +570,10 @@
     .mensaje {
         width: 635px;
     }
+
+    .descripcionContacto {
+        width: 30vw;
+    }
 }
 
 /* ANIMACIÓN EN DESKTOP LINKS */
