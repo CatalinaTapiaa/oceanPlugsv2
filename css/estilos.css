@@ -298,7 +298,7 @@
     line-height: 2;
 }
 
-.imagen-nosotros{
+.imagen-nosotros {
     width: 450px;
 }
 
@@ -355,6 +355,77 @@
     bottom: 0;
 }
 
+/* CONTACTO */
+.contactoPrincipal {
+    height: 50vh;
+    width: 100%;
+    background-image: url(../img/contacto.png);
+    background-size: cover;
+    background-color: #2525254d;
+    background-blend-mode: soft-light;
+}
+
+.row-contacto {
+    margin-top: 80px;
+}
+
+.tituloContacto {
+    padding: 20px 20px 10px 20px;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.descripcionContacto {
+    color: white;
+    font-size: 18px;
+    width: 80vw;
+    padding-left: 20px;
+    font-weight: 250;
+    text-align: justify;
+}
+
+.btn-redes-contacto {
+    background: #FF8E00;
+    border: none;
+    height: 50px;
+    border-radius: 5px;
+    line-height: 2;
+}
+
+.campo {
+    margin-top: 10px;
+}
+
+.formulario {
+    margin-top: 20px;
+    border-top: 1px solid rgba(128, 128, 128, 0.315);
+}
+
+.listas-plegables {
+    margin: 20px 0;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: #FF8E00;
+}
+
+.btn-enviar {
+    background: #FF8E00;
+    border: none;
+    width: 100px;
+    height: 40px;
+    line-height: 1;
+    border-radius: 5px;
+    color: white;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.btn-enviar:hover {
+    background: #FEAF01;
+}
 
 /* 768 x 1024 - IPAD */
 @media (min-width: 768px) {
@@ -406,7 +477,7 @@
         margin-top: 30px;
     }
 
-    .imagen-nosotros{
+    .imagen-nosotros {
         width: 350px;
     }
 
@@ -423,8 +494,19 @@
         margin-left: 170px;
     }
 
-    .bienvenidaMenu{
+    .bienvenidaMenu {
         justify-content: flex-end;
+    }
+
+    /* CONTACTANOS */
+    .formulario {
+        justify-content: flex-end;
+        border-top: none;
+        border-left: 1px solid rgba(128, 128, 128, 0.315);
+    }
+
+    .mensaje {
+        width: 360px;
     }
 }
 
@@ -466,8 +548,8 @@
     .contenedor-redes {
         margin: 150px 0;
     }
-    
-    .imagen-nosotros{
+
+    .imagen-nosotros {
         width: 700px;
     }
 
@@ -482,6 +564,11 @@
 
     .tituloLightCuenta {
         font-size: 28px;
+    }
+
+    /* CONTACTANOS */
+    .mensaje {
+        width: 635px;
     }
 }
 
