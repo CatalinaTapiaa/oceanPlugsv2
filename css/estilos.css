@@ -298,8 +298,12 @@
     line-height: 2;
 }
 
+.imagen-nosotros{
+    width: 450px;
+}
+
 /* CUENTA */
-.menu{
+.menu {
     margin-top: 100px;
 }
 
@@ -376,8 +380,11 @@
     /* NOSOTROS */
     .row-img-nosotros {
         justify-content: flex-end;
+        margin-top: 30px;
+    }
 
-        margin-top: -230px;
+    .imagen-nosotros{
+        width: 350px;
     }
 
     .contenedor-redes {
@@ -415,20 +422,21 @@
     }
 
     /* NOSOTROS */
-    .descripcionBold, .descripcionLight {
+    .descripcionBold,
+    .descripcionLight {
         width: 33vw;
     }
 
-    .row-nosotros{
+    .row-nosotros {
         flex-direction: column;
     }
 
     .contenedor-redes {
         margin: 150px 0;
     }
-
-    .row-img-nosotros {
-        margin-top: -400px;
+    
+    .imagen-nosotros{
+        width: 700px;
     }
 }
 
