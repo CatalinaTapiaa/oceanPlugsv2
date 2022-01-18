@@ -298,6 +298,37 @@
     line-height: 2;
 }
 
+/* CUENTA */
+.menu{
+    margin-top: 100px;
+}
+
+.menuItems {
+    list-style-type: none;
+    border-bottom: 1px solid grey;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.menuItems a {
+    text-decoration: none;
+    color: grey;
+}
+
+.menuItems a:hover {
+    font-weight: 700;
+    color: black;
+}
+
+.imagenMenu {
+    height: 30px;
+    position: absolute;
+    margin-left: 380px;
+    width: 30px;
+}
+
+
 /* 768 x 1024 - IPAD */
 @media (min-width: 768px) {
     .productos {
