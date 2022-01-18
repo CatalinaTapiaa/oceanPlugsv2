@@ -332,6 +332,29 @@
     width: 30px;
 }
 
+.tituloLightCuenta {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 40px 20px auto;
+}
+
+.tituloBoldCuenta {
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.descripcionCuenta {
+    font-size: 18px;
+    margin: 10px 20px;
+    text-align: justify;
+}
+
+.footer-cuenta {
+    position: absolute;
+    bottom: 0;
+}
+
 
 /* 768 x 1024 - IPAD */
 @media (min-width: 768px) {
@@ -393,6 +416,15 @@
 
     .nosotrosPrincipal {
         height: 570px;
+    }
+
+    /* CUENTA */
+    .imagenMenu {
+        margin-left: 170px;
+    }
+
+    .bienvenidaMenu{
+        justify-content: flex-end;
     }
 }
 
