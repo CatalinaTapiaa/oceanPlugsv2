@@ -470,6 +470,19 @@
     .imagen-nosotros{
         width: 700px;
     }
+
+    /* CUENTA */
+    .imagenMenu {
+        margin-left: 350px;
+    }
+
+    .menu {
+        margin-top: 150px;
+    }
+
+    .tituloLightCuenta {
+        font-size: 28px;
+    }
 }
 
 /* ANIMACIÓN EN DESKTOP LINKS */
