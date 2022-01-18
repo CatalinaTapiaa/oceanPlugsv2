@@ -427,6 +427,67 @@
     background: #FEAF01;
 }
 
+/* TIENDA */
+.categoriasFiltro {
+    display: none;
+}
+
+.filtro-paginacion {
+    margin-top: 80px;
+}
+
+.tituloTienda {
+    padding: 30px 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.filtro {
+    background-image: url(../img/filtrar.png);
+    width: 80%;
+    height: 40px;
+    background-repeat: no-repeat;
+    margin: -10px 30px;
+    background-position-y: center;
+    background-position-x: 10px;
+    border: 1px solid rgb(0 0 0 / 14%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    text-indent: 50px;
+    background-color: white;
+}
+
+.paginacion {
+    margin-top: 30px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.img-tienda {
+    width: 80vw;
+    height: 200px;
+}
+
+.card-tienda {
+    margin-top: 10px;
+}
+
+.cont-cards {
+    flex-direction: column;
+}
+
+.page-link{
+    color: black;
+}
+
+.page-link:hover {
+    color: black;
+}
+
+.pagination{
+    justify-content: center;
+}
+
 /* 768 x 1024 - IPAD */
 @media (min-width: 768px) {
     .productos {
@@ -508,6 +569,26 @@
     .mensaje {
         width: 360px;
     }
+
+    /* TIENDA */
+    .img-tienda {
+        width: 40vw;
+    }
+
+    .filtro {
+        width: 90%;
+    }
+
+    .cont-cards {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .card-tienda {
+        width: 40vw;
+        margin: 10px 20px;
+    }
+
 }
 
 /* 1920 x 1080 */
@@ -574,6 +655,92 @@
     .descripcionContacto {
         width: 30vw;
     }
+
+    /* TIENDA */
+    .img-tienda,
+    .card-tienda {
+        width: 16vw;
+    }
+
+    .categoriasFiltro {
+        display: inline-block;
+        margin-top: 40px;
+    }
+
+    .listaCategorias {
+        list-style: none;
+        margin-left: 50px;
+    }
+
+    .listaCategorias input[type="checkbox"] {
+        border: 1px solid #b4b9be;
+        height: 20px;
+        margin: 6px 4px 0 0;
+        vertical-align: sub;
+        width: 20px;
+        -webkit-appearance: none;
+        border-radius: 8px;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .listaCategorias label {
+        font-size: 14px;
+    }
+
+    .filtroPorMedida {
+        margin-top: 20px;
+    }
+
+    .btnAplicar {
+        width: 65px;
+        height: 30px;
+        background: #FF8E00;
+        border: none;
+        margin: 10px 0 0 50px;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .filtro {
+        display: none;
+    }
+
+    .row-tienda {
+        margin: -350px 0 0 200px;
+    }
+
+    .paginacion-desk {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        margin-left: 220px;
+        padding-right: 150px;
+    }
+
+    .paginacion {
+        font-size: 18px;
+    }
+
+    .tituloTienda {
+        font-size: 28px;
+    }
+
+    .tituloCatFiltro {
+        border-bottom: 1px solid rgba(0, 0, 0, .1);
+        font-weight: 400;
+        font-size: 14px;
+        margin-left: 50px;
+    }
+
+    .numeracion {
+        margin-left: 200px;
+    }
+
+    .pagination{
+        justify-content: inherit;
+    }
+    
 }
 
 /* ANIMACIÓN EN DESKTOP LINKS */
